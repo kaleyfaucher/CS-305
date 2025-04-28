@@ -1,2 +1,12 @@
 # CS-305
 Software Security
+
+Artemis Financial, a consulting firm that offers financial planning services, approached us to secure their web application. They explicitly focused on protecting sensitive client data and required the implementation of secure communication protocols, including encryption and checksum verification, to ensure data confidentiality, integrity, and authenticity.
+Addressing Security Vulnerabilities: The refactoring successfully addressed security issues by implementing SHA-256 encryption, checksum verification, and transitioning to HTTPS for secure communication. Secure coding is essential for preventing data breaches, maintaining customer trust, and protecting against cyber threats (CRIF, 2023). Software security enhances a company's reputation, reduces financial losses, and ensures compliance with regulations.
+Challenging Part of Vulnerability Assessment: The most helpful part of the assessment was identifying insecure data transmission and weak encryption methods. The problematic aspect was ensuring the seamless transition to HTTPS without compatibility issues.
+Increasing Layers of Security: Security layers were added through encryption (SHA-256), data integrity verification (checksum), and secure communication (HTTPS). In the future, I would utilize static analysis tools and penetration testing to assess vulnerabilities and implement mitigation techniques, such as multi-factor authentication.
+Ensuring Functionality and Security: After refactoring, the code was tested for encryption, checksum verification, and HTTPS functionality. Static code analysis tools and dependency checks were used to ensure no new vulnerabilities were introduced.
+Resources, Tools, and Practices for Future Use: Tools like SHA-256, SSL/TLS certificates, static analysis tools, and JUnit were essential. These resources will help ensure applications are secure and functional in future assignments.
+Examples for Future Employers: I would showcase how I refactored code for security, implemented SHA-256 encryption, secured communication with HTTPS, and performed functional testing. This project demonstrates my ability to enhance software security and ensure functionality, making it a valuable example of my development and security expertise.
+
+Maximizing Your Business Potential with Digital Solutions | CRIF Digital. https://www.crif.digital/blog/maximizing-your-business-potential-with-digital-solutions/
